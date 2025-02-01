@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <hr>
+        <h1>STUDENT FORM</h1>
+        <hr>
+    </div>
+    <div class="container">
+        <form>
+            <center>
+
+                <table class="table" border="2">
+                    <tr>
+                        <th>Name</th>
+                        <td><input type="text" placeholder="Type your Name" id="reg-name"></td>
+                    </tr>
+                    <tr>
+                        <th>Age</th>
+                        <td><input type="number" placeholder="Type your Age" id="reg-age"></td>
+                    </tr>
+                    <tr>
+                        <th>Gender</th>
+                        <td><input type="radio" id="reg-gender" name=gender value="Male">Male<input type="radio"
+                                name=gender value="Female">Female</td>
+                    </tr>
+                    <tr>
+                        <th>Course</th>
+                        <td>
+                            <select id="reg-course">
+                                <option>---SELECT---</option>
+                                <option>HTML</option>
+                                <option>CSS</option>
+                                <option>Bootstrap</option>
+                                <option>Javascript</option>
+                                <option>React JS</option>
+                                <option>Angular JS</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>E-Mail</th>
+                        <td><input type="E-mail" placeholder="Type your Email id" id="reg-mail"></td>
+                    </tr>
+                    <tr>
+
+
+                        <th colspan="2">
+                            <button type="submit" id="add-data">Save</button>
+                        </th>
+                    </tr>
+
+                </table>
+                <br>
+                <br>
+                <table class="tabular" border="2">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                            <th>Course</th>
+                            <th>Email</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="data"></tbody>
+                </table>
+
+            </center>
+        </form>
+
+    </div>
+
+    <script src="JS.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+*{
+    background-color:lightblue;
+}
+.header{
+    text-align: center;
+    margin:5px;
+    padding:10px;
+}
+table{    
+    width:35%;
+    background-color:lightsalmon;
+}
+
+#reg-name{
+    width:95%;
+}
+#reg-age{
+    width:95%;
+}
+#reg-mail{
+    width:95%
+}
+#reg-course{
+    background-color: white;
+}
+
+tr th{
+    padding:10px;
+}
+tr td input{
+    padding:5px;
+    
+    font-size: medium;
+    background-color: aliceblue;
+}
+
+tr td input::placeholder{
+    font-size: 12px;
+    
+
+}
+
+button{
+    padding:5px;
+    border-radius: 5px;
+    width:100%;
+    background-color: aqua;
+}
+
+.tabular tr td{
+    padding:15px;
+    text-align: center;
+}
