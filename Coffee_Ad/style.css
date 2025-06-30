@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: white;
+    height: 800px;
+    width: 800px;
+    margin: 30px auto;
+    box-shadow:  rgba(14, 30, 37, 0.32) 0px 0px 60px 10px;
+    border: 3px ridge #555555
+
+    /* box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.308); */
+
+}
+
+html {
+    background: hsla(0, 8%, 88%, 0.651);
+}
+
+.row {
+    
+    height: 100px;
+    display: flex;
+    
+
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    font-size: 65px;
+    text-align: center;
+    
+}
+
+.light {
+    background: #e0c38c;
+}
+
+.black {
+    background: #1f1f1f;
+}
