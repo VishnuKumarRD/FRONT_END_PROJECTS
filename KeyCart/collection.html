@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEYCART</title>
+    <!--my css-->
+    <link rel="stylesheet" href="style.css">
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!--font awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>KEYCART</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact Us</a></p>
+
+        </div>
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+    </nav>
+    <!--sidenavbar-->
+    <div class="side-navbar">
+        <p style="text-align:right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+
+
+        <div class="side-navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact Us</a></p>
+
+        </div>
+
+    </div>
+
+
+     <!--Product Colections-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="products">
+            <div class="products-box">
+                <img src="https://picsum.photos/200/200? Whiteshirt12">
+                <p>White Shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="https://picsum.photos/200/200?fashion10">
+                <p>Black Shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="https://picsum.photos/200/200? Whiteshirt1">
+                <p>casual Shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="https://picsum.photos/200/200?fashion12">
+                <p>formal Shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="https://picsum.photos/200/200?fashion11">
+                <p>function set</p>
+            </div>
+            <div class="products-box">
+                <img src="https://picsum.photos/200/200? Whiteshirt13">
+                <p>guptha</p>
+            </div>
+            <div class="products-box">
+                <img src="https://picsum.photos/200/200?fashion13">
+                <p>Tshirt</p>
+            </div>
+            <div class="products-box">
+                <img src="https://picsum.photos/200/200?fashion14">
+                <p>jeans shirt</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>Doloribus incidunt iusto repudiandae, voluptates ipsa obcaecati temporibus velit. Saepe, molestias
+                    voluptates.
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color:aliceblue"></i>
+                    <i class="fa-brands fa-whatsapp" style="color:aliceblue"></i>
+                    <i class="fa-brands fa-twitter" style="color:aliceblue"></i>
+                </div>
+                </p>
+            </div>
+        </div>
+        <p>nostra2K24@gmail.com</p>
+    </div>
+
+
+
+    <script src="collection.js"></script>
+
+</body>
+
+</html>

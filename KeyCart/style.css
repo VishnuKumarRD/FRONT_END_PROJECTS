@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: azure;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.navbar-links {
+    display: flex;
+    column-gap: 20px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: aqua;
+
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+.navbar-menu-toggle {
+    display: none;
+}
+
+/*side navbar*/
+.side-navbar {
+    background-color: black;
+    width: 50%;
+    padding: 20px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left:-60%;
+    color: white;
+    transition: 1s;
+    
+
+}
+
+.side-navbar-link {
+    margin-bottom: 30px;
+}
+
+.side-navbar-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.side-navbar-links a:hover {
+    text-decoration: underline;
+
+}
+
+/*header*/
+.header{
+    display:flex;
+    justify-content:center;
+    padding:50px;
+    gap:50px;
+}
+
+.header-button{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:10px;
+    background-color: grey;
+    color:aliceblue;
+    cursor:pointer;
+    border-radius:10px;
+
+}
+
+.service{
+    padding:20px;
+}
+
+.service-container-1{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.service-container-2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+.service-container-2 div{
+    background-color: rgb(212, 208, 208);
+    border-radius:5px;
+    padding:10px;
+}
+.new-arrival{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.new-arrival-container{
+    position:relative;
+    flex-basis: 20%;;
+}
+
+.new-arrival button{
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    margin-top:10px;
+    background-color:rgb(212, 208, 208);
+    border-radius: 10px;
+    position: absolute ;
+    top:50%;
+    left:10%;
+    border:none;
+    opacity:0.5;
+}
+
+.news{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.news input{
+    padding:10px;
+    width:80vw;
+    margin-bottom:10px;
+    border:solid black 3px;
+}
+
+.news button{
+    margin-top:10px;
+    color:rgb(212, 208, 208);
+    background-color: black;
+    border-radius: 10px;
+    padding:10px;
+}
+
+.footer{
+    margin-top: 20px;
+    padding:40px;
+    background-color: black;
+    color:antiquewhite
+}
+
+.product-section{
+    margin-top:20px;
+}
+
+.product-search{
+    width:80%;
+    border:solid black 2px;
+    display:flex;
+    border-radius:20px;
+    justify-content:space-between;
+    align-items: center;
+    padding:10px;
+    margin:auto;
+}
+
+.product-search input{
+    border:none;
+    background-color: transparent;
+    width:100%;
+}
+
+.product-search input:focus{
+    outline:none;
+}
+
+.products{
+    padding:20px;
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.products-box{
+    text-align:center;
+    flex-basis:20%;
+}
+
+
+.product-box img{
+    border-radius:10px;
+}
+
+.contact{
+    background-color: black;
+    color:aliceblue;
+    margin:20px;
+    padding:50px;
+    display: flex;
+    flex-direction:column;
+    border-radius: 20px;
+    align-items: center;
+    
+}
+
+.contact-container input{
+    width:80vw;
+    padding:20px;
+    margin:10px;
+    outline: none;
+    border-radius: 5px;
+    font-size:20px;
+
+}
+
+.contact-container button{
+    padding:10px;
+    margin:10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+
+}
+.contact-container div{
+    padding-bottom:15px;
+    padding-top: 15px;
+}
+.contact-container{
+    padding:20px;
+}
+
+/*Media query*/
+@media screen and (max-width:700px) {
+    .navbar-menu-toggle {
+        display: block;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .header-image{
+        display:none;
+    }
+    .service-container-1{
+        display:none;
+    }
+    .service-container-2 {
+        flex-direction: column;
+    }
+}
