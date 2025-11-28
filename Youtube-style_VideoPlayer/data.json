@@ -1,0 +1,37 @@
+[
+    {
+        "image" : "./Images/kesariya.jpg",
+        "video" : "./Videos/BRAHMĀSTRA (Tamil)  Theethiriyaai Video  Ranbir  Alia  Pritam  Sid Sriram  Madhan Karky - Sony Music South (720p, h264).mp4",
+        "title" : "Brahmashtra"
+    },
+    {
+        "image" : "./Images/thirudi.jpg",
+        "video" : "./Videos/Thirudi Music Video  Kiss  Kavin  Sathish  Jen Martin  Anirudh  Raahul  Romeo Pictures - Sony Music South (720p, h264).mp4",
+        "title" : "Thirudi"
+    },
+    {
+        "image" : "./images/vazhithunaye.jpeg",
+        "video" : "./Videos/Vazhithunaiye - Video Song  Dragon  Pradeep Ranganathan, Kayadu  Ashwath Marimuthu  Leon James - Think Music India (720p, h264).mp4",
+        "title" : "Vazhithunaye"
+    },
+    {
+        "image" : "./images/Seemakaariye-Song.jpg",
+        "video" : "./Videos/Seemakaariye - Video Song  Saba Nayagan  Ashok Selvan, Karthika  Leon James  Sanjith Hegde - Saregama Tamil (720p, h264).mp4",
+        "title" : "Seemakaariye"
+    },
+    {
+        "image" : "./images/othayadi.jpg",
+        "video" : "./Videos/4K Video Song _ Kanaa _ Dhibu Ninan Thomas _ Anirudh _ Aishwarya Rajesh.mp4",
+        "title" : "Othayadi paadha"
+    },
+    {
+        "image" : "./images/manasellam.jpg",
+        "video" : "./Videos/Manasellam Mazhaiyae Video Song _ Saguni _  Karthi _ Pranitha _ Santhanam.mp4",
+        "title" : "Manasellam Mazhaiye"
+    },
+    {
+        "image" : "./images/unnale.jpg",
+        "video" : "./Videos/Unnale Unnale - 4K Video Song _ உன்னாலே உன்னாலே _ Vinay _ Sadha _ Jeeva _ Harris Jayaraj _ Ayngaran.mp4",
+        "title" : "Unnale Unnale"
+    }
+] 
